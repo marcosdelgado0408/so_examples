@@ -5,7 +5,7 @@ import time
 
 #em C essa funçao só recebe um argumento: o número do signal
 def SIGINT_handler(sig_number, sig_stack):
-	print ("nunca morrerei com ctrl-c")
+    print("")
 
 #registra a funcao SIGINT_handler para ser executada
 #quando o processo recebe um SIGINT. Assim,
