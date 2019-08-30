@@ -1,5 +1,6 @@
 #include <iostream>
-#include <vector>
+#include <list>
+
 
 using namespace std;
 
@@ -20,7 +21,7 @@ int func(int args[4]){ // vai fazer as operações de cada linha da matriz -> e 
 
 void unroll(int args[4][4]){
 
-	vector<int> results; // armazenar os resultados do retorno de fund()	
+	list<int> results; // armazenar os resultados do retorno de fund()	
 
 	for(int i=0;i<4;i++){
 		for(int j=0;j<4;j++){
@@ -29,7 +30,6 @@ void unroll(int args[4][4]){
 	}
 
 }
-
 
 
 
