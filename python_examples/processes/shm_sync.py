@@ -29,7 +29,7 @@ s = "teste de escrita" + '\0'
 cont = 0
 print ("testing shared memory")
 while True:
-	print ("writing " + str(cont) + " val " + str(sem.value))
+	print ("writing " + str(cont)	 + " val " + str(sem.value))
 	mapped_memory.seek(0)
 
 	print ("writing " + str(cont))
